@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Link to style.css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Profile card component</title>
+  </head>
+  <body>
+    <main>
+      <!-- Top Pattern Div -->
+      <div class="top-pattern">
+        <img src="./images/bg-pattern-top.svg" alt="Top Pattern" />
+      </div>
+      <!-- Bottom Pattern Div -->
+      <div class="bottom-pattern">
+        <img src="./images/bg-pattern-bottom.svg" alt="Bottom Pattern" />
+      </div>
+      <!-- Card Div -->
+      <figure class="card">
+        <!-- Card Pattern Div -->
+        <div class="card__pattern">&nbsp;</div>
+        <!-- Card Image -->
+        <img class="card__image" src="./images/image-victor.jpg" alt="Victor" />
+        <!-- Card Content Div -->
+        <div class="card__content">
+          <div class="card__name__age">
+            <p class="card__name">Victor Crest</p>
+            <p class="card__age">26</p>
+          </div>
+          <p class="card__location">London</p>
+          <div class="card__stats">
+            <div class="stat">
+              <p class="stat__number">80K</p>
+              <p class="stat__name">Followers</p>
+            </div>
+            <div class="stat">
+              <p class="stat__number">803K</p>
+              <p class="stat__name">Likes</p>
+            </div>
+            <div class="stat">
+              <p class="stat__number">1.4K</p>
+              <p class="stat__name">Photos</p>
+            </div>
+          </div>
+        </div>
+      </figure>
+    </main>
+  </body>
+</html>
